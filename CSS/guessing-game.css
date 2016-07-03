@@ -1,0 +1,59 @@
+body {
+	background: #ffffff url(../Images/grace-hopper-academy.jpg) top left no-repeat;
+	background-size: 300px 200px;
+}
+
+h1 {
+	color: #E5058A;
+	text-align: center;
+	margin-top: 150px;
+	font-family: Arial, Garamond, sans-serif;
+}
+
+h2 {
+	text-align: center;
+}
+
+.guess {
+	text-align: center;
+}
+
+.guess input[type=text] {
+	margin-top: 45px;	
+	width: 200px;
+	height: 20px;
+	border-radius: 25px;
+	padding: 15px;
+	color: gray;
+	font-style: italic;
+	font-size: 13px;
+	text-align: center;
+}
+
+.guess input[type=submit] {
+	width: 200px;
+	height: 55px;
+	border-radius: 23px;
+    padding: 20px; 
+	background-color: #82C34D;	
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.buttons {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.buttons input[type=submit] {
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+    padding: 20px; 
+	background-color: #FFC302;
+	color: white;
+	font-size: 13px;
+	text-align: center;
+}
