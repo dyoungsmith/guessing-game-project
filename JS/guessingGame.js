@@ -110,6 +110,14 @@ $(document).ready(function() {
 		playersGuessSubmission();
 		checkGuess();
 		guessMessage();
+		//$('.guess').remove(duplicateGuess);
+	});
+
+	$('.buttons').on('click', '#hint', function(){
+		var hintNums = [];
+		hintNums.push(generateWinningNumber());
+		var hint = $('<p>Try Again</p>');
+		$('body').append(hint);
 	});
 });
 
