@@ -1,6 +1,7 @@
 body {
 	background: #ffffff url(../Images/grace-hopper-academy.jpg) top left no-repeat;
 	background-size: 300px 200px;
+	text-align: center;
 }
 
 h1 {
